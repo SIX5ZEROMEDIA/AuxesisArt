@@ -98,7 +98,25 @@ html body {
    padding-left: 5px;
  }
 
- a:hover{
-  color: rgb(255, 0, 0);
-   transition: color 0.5s; 
-}
+ .home-footer .fa-twitter {
+   font-size: 22px;
+   color: white;
+ }
+ .home-footer .fa-instagram{
+   font-size: 22px;
+   color: white;
+ }
+ .home-footer .fa-facebook-f{
+   font-size: 22px;
+   color: white;
+ }
+
+ .home-footer .fa-twitter:hover {
+   color: red;
+ }
+ .home-footer .fa-instagram:hover {
+   color: red;
+ }
+ .home-footer .fa-facebook-f:hover {
+   color: red;
+ }
