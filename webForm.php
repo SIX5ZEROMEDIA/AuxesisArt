@@ -11,17 +11,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8ff68c69b1.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="http://localhost/WebForm/form.css">
+    <link rel="stylesheet" href="http://localhost/AuxesisArt/form.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Contact Me</title>
+    <title>Contact Us</title>
 </head>
 <body>
 
-<nav class="navbar">
+    <nav class="navbar">
         <span class="navbar-toggle" id="js-navbar-toggle">
             <i class="fas fa-bars"></i>
         </span>
-        <a href="#" class="logo"><img src="http://localhost/WebForm/AuxesisArt_logo.png" 
+        <a href="#" class="logo"><img src="http://localhost/AuxesisArt/AuxesisArt_logo.png" 
          width="250px" height="100px"   alt=""></a>
         <ul class="main-nav" id="js-menu">
             <li>
@@ -99,7 +99,7 @@ navBarToggle.addEventListener('click', function () {
     </footer>
     </div>
 
-
+    
     <script>
     let mainNav = document.getElementById('js-menu');
 let navBarToggle = document.getElementById('js-navbar-toggle');

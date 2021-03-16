@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (mail($to, $subject, $message_body)){
             // $success = "Message sent, thank you for contacting us!";
             // header( 'Location: http://www.facebook.com' ) ; 
-            header( 'Location: http://localhost/WebForm/thankyou.html' ) ; 
+            header( 'Location: http://localhost/AuxesisArt/thankyou.html' ) ; 
             $first_name = $last_name = $email = $phone = $message =  '';
         }
     }
